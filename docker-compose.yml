@@ -8,9 +8,9 @@ services:
       DB_USER: root
       DB_PASSWD: janejane123456
       DB_NAME: tiebacloud
-      CSRF: "true"
+      CSRF: "false"
     ports:
-      - "80:8080"
+      - "8090:8090"
     links:
       - db
     depends_on:
